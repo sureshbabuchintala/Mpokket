@@ -1,0 +1,375 @@
+/* .main{
+    background-image: url("https://play-lh.googleusercontent.com/EloGgLLOLWYeXgDyHLXuNUUhio_Lcxwa4bbxPd7NGpSk9Y7aKWb4G0MRRuMMje9mcQw");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    padding: 15px;
+}
+.innermain{
+    display: flex;
+    flex-direction: column;
+}
+.sec1{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 5vh;
+    align-items: center;
+    
+} */
+.main{
+    padding: 5%;
+}
+.card1{
+    width: 50%;
+    height: 500px;
+    padding: 15px;
+    
+ }
+
+.img1{
+    width: 100px;
+    height: 35px;
+}
+.card{
+    background-color:blue;
+    width: 50%;
+    height: 500px;
+    padding: 25px;
+}
+.secblock{
+    width: 100vw;
+    height: 500px;
+   background-color: #fafafa;
+}
+.secblock1{
+    width: 100vw;
+    height: 600px;
+    padding: 25px;
+   background-color:white;
+}
+.cardd{
+    width: 300px;
+    height: 150px;
+    background-color: #fafafa;
+    border: 0px white solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+.head{
+    font-size:15px;
+}
+.pera{
+    font-size: 15px;
+}
+.stats_num{
+    color: gold;
+    font-weight: 700;
+    text-align: center;
+}
+.loan1{
+    width: 100vw;
+    height: 250px;
+    padding: 25px;
+   background-color:white;
+}
+.loan_button{
+    width: 70%;
+    height: 100px;
+    border-radius: 25px;
+    background-color:#e9ebed;
+    padding: 10px;
+}
+b{
+    width: 33.3%;
+    height:80px ;
+    margin: 0px;
+    background-color: rgb(46, 46, 94);
+    border-radius: 25px;
+
+}
+.cart{
+    width: 80%;
+    height: 300px;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: aliceblue;
+    margin: 25px;
+    text-align: center;
+   
+
+}
+.cart1{
+    /* display: flex;
+    justify-content: center; */
+    align-items: center;
+}
+nav {
+    position: fixed; /* Or use position: fixed for always-visible nav bar */
+    top: 0; /* Ensure it sits above other content */
+  }
+  body{
+    padding: 1px;
+}
+*{
+    background-size: cover;
+}
+.first-marque{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 100wh;
+}
+
+.first-marque-image{
+    border-radius: 8px;
+    width: 200px;
+    height: 130px;
+    background-color: rgba(128, 128, 128, 0.233);
+    padding: 30px;
+    margin: 25px;
+}
+
+.first-marque-image:hover{
+    transform: scale(1.2)
+}
+
+.second-marque-heading{
+    color: aliceblue;
+}
+
+.second-marque{
+    background-color: black;
+   
+    width: 100%;
+}
+
+
+.second-marque-inside-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.second-marque-image{
+    width: 300px;
+    border-radius: 10px;
+    height: 200px;
+    margin: 25px;
+}
+
+
+.second-marque-image:hover{
+    transform: scale(1.2)
+}
+
+
+.happy-costomer-section{
+    background-color: rgba(128, 128, 128, 0.064);
+    
+}
+
+.happy-costomer{
+    
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.happy-costomer-content{
+
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    margin: 8px;
+    box-shadow: 4px 4px 8px rgba(0.087, 0.087, 0.087, 0.087);
+}
+
+
+.happy-costomer-content-para{
+    
+    color: rgba(128, 128, 128, 0.667);
+}
+
+.happy-costomer-sec2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.flag-and-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.faq-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Centers the items horizontally */
+    width: 100%;  /* Takes the full width of the parent container */
+    padding: 20px;
+    padding-top: 50px;
+}
+
+.faq-item {
+    display: flex;  /* Use flexbox to align items */
+    justify-content: space-between;  /* Space between text and arrow */
+    align-items: center;  /* Center items vertically */
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    width: 90%;  
+    height: 80px;
+    max-width: 1300px;  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 18px;  /* Adjust as needed */
+    color: #333;  /* Adjust as needed */
+}
+
+.fa-solid{
+    font-size: 18px;  /* Adjust size as needed */
+    color: #333;  /* Adjust color as needed */
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+footer {
+    background-color: #000000;
+    padding: 20px 0;
+    padding-left: 40px;
+}
+.mpokket-img{
+    margin: 40px;
+    margin-left: 70px;
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+    margin-bottom: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-section:last-child {
+    margin-right: 0;
+}
+
+.footer-section h4 {
+    margin-bottom: 15px;
+    color: #ffbd03;
+    font-size: 16px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+    margin-bottom: 20px;
+    border-top: 1px solid #333333;
+    padding-top: 20px;
+}
+
+.loan-amounts a,
+.locations a {
+    color: #ffbd03;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.loan-amounts a:hover,
+.locations a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 12px;
+    color: #888888;
+    margin-bottom: 20px;
+}
+
+.footer-social {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-social a {
+    margin: 0 10px;
+}
+
+.footer-social a img {
+    width: 20px;
+    height: 20px;
+    filter: invert(1); /* Invert colors for white icons */
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    .first-marque{
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        width: 100wv;
+    }
+    
+    .first-marque-image{
+        border-radius: 6px;
+        width: 170px;
+        height: 100px;
+        background-color: rgba(128, 128, 128, 0.233);
+        padding: 22px;
+        margin: 17px;
+    }
+    
+    .second-marque-heading{
+        color: aliceblue;
+    }
+    
+    
+    .second-marque-inside-sec{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .second-marque-image{
+        width: 200px;
+        border-radius: 7px;
+        height: 120px;
+        margin: 17px;
+    }
+  }
